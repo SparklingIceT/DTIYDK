@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FantasyDraft</title>
+        <link rel="stylesheet" href="FantasyDraft.css">
+    </head>
+    <body>
+        <div>
+            <img src="4_CAM_TOPICS.png">
+        </div>
+        <div class="Ranking">
+            <span id="Player1" class="Zeile1 Playername1"></span>
+            <span id="Player2" class="Zeile2 Playername1"></span>
+            <span id="Player3" class="Zeile3 Playername1"></span>
+            <span id="Player4" class="Zeile4 Playername1"></span>
+            <span id="Player5" class="Zeile5 Playername1"></span>
+            <span id="Player6" class="Zeile1 Playername2"></span>
+            <span id="Player7" class="Zeile2 Playername2"></span>
+            <span id="Player8" class="Zeile3 Playername2"></span>
+            <span id="Player9" class="Zeile4 Playername2"></span>
+            <span id="Player10" class="Zeile5 Playername2"></span>
+            <span id="Player11" class="Zeile1 Playername3"></span>
+            <span id="Player12" class="Zeile2 Playername3"></span>
+            <span id="Player13" class="Zeile3 Playername3"></span>
+            <span id="Player14" class="Zeile4 Playername3"></span>
+            <span id="Player15" class="Zeile5 Playername3"></span>
+            <span id="Player16" class="Zeile1 Playername4"></span>
+            <span id="Player17" class="Zeile2 Playername4"></span>
+            <span id="Player18" class="Zeile3 Playername4"></span>
+            <span id="Player19" class="Zeile4 Playername4"></span>
+            <span id="Player20" class="Zeile5 Playername4"></span>
+            <span id="Score1" class="Zeile1 Score1"></span>
+            <span id="Score2" class="Zeile2 Score1"></span>
+            <span id="Score3" class="Zeile3 Score1"></span>
+            <span id="Score4" class="Zeile4 Score1"></span>
+            <span id="Score5" class="Zeile5 Score1"></span>
+            <span id="Score6" class="Zeile1 Score2"></span>
+            <span id="Score7" class="Zeile2 Score2"></span>
+            <span id="Score8" class="Zeile3 Score2"></span>
+            <span id="Score9" class="Zeile4 Score2"></span>
+            <span id="Score10" class="Zeile5 Score2"></span>
+            <span id="Score11" class="Zeile1 Score3"></span>
+            <span id="Score12" class="Zeile2 Score3"></span>
+            <span id="Score13" class="Zeile3 Score3"></span>
+            <span id="Score14" class="Zeile4 Score3"></span>
+            <span id="Score15" class="Zeile5 Score3"></span>
+            <span id="Score16" class="Zeile1 Score4"></span>
+            <span id="Score17" class="Zeile2 Score4"></span>
+            <span id="Score18" class="Zeile3 Score4"></span>
+            <span id="Score19" class="Zeile4 Score4"></span>
+            <span id="Score20" class="Zeile5 Score4"></span>
+        </div>
+
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'I2' : 'Player1',
+                    'J2' : 'Player2',
+                    'K2' : 'Player3',
+                    'L2' : 'Player4',
+                    'M2' : 'Player5',
+                    'I3' : 'Player6',
+                    'J3' : 'Player7',
+                    'K3' : 'Player8',
+                    'L3' : 'Player9',
+                    'M3' : 'Player10',
+                    'I4' : 'Player11',
+                    'J4' : 'Player12',
+                    'K4' : 'Player13',
+                    'L4' : 'Player14',
+                    'M4' : 'Player15',
+                    'I5' : 'Player16',
+                    'J5' : 'Player17',
+                    'K5' : 'Player18',
+                    'L5' : 'Player19',
+                    'M5' : 'Player20',
+                    'I6' : 'Score1',
+                    'J6' : 'Score2',
+                    'K6' : 'Score3',
+                    'L6' : 'Score4',
+                    'M6' : 'Score5',
+                    'I7' : 'Score6',
+                    'J7' : 'Score7',
+                    'K7' : 'Score8',
+                    'L7' : 'Score9',
+                    'M7' : 'Score10',
+                    'I8' : 'Score11',
+                    'J8' : 'Score12',
+                    'K8' : 'Score13',
+                    'L8' : 'Score14',
+                    'M8' : 'Score15',
+                    'I9' : 'Score16',
+                    'J9' : 'Score17',
+                    'K9' : 'Score18',
+                    'L9' : 'Score19',
+                    'M9' : 'Score20',
+                }
+            };
+            const spreadsheetID = '1LAm59KaCZLcd7BB7YkBOn5Np4F5tpG2ohUrGGtpSHeU'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>

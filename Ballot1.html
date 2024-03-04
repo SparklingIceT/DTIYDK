@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ballot</title>
+        <link rel="stylesheet" href="Masteringswiss.css">
+    </head>
+    <body>
+        <div class="Ranking">
+            <span id="Player1" class="Zeile1 Playername"></span>
+            <span id="Player2" class="Zeile2 Playername"></span>
+            <span id="Player3" class="Zeile3 Playername"></span>
+            <span id="Player4" class="Zeile4 Playername"></span>
+            <span id="Player5" class="Zeile5 Playername"></span>
+            <span id="Player6" class="Zeile6 Playername"></span>
+            <span id="Player7" class="Zeile7 Playername"></span>
+            <span id="Player8" class="Zeile8 Playername"></span>
+            <span id="Player9" class="Zeile9 Playername"></span>
+            <span id="Player10" class="Zeile10 Playername"></span>
+            <span id="Player11" class="Zeile11 Playername"></span>
+            <span id="Player12" class="Zeile12 Playername"></span>
+            <span id="Player13" class="Zeile13 Playername"></span>
+            <span id="Player14" class="Zeile14 Playername"></span>
+            <span id="Player15" class="Zeile15 Playername"></span>
+            <span id="Player16" class="Zeile16 Playername"></span>
+        </div>
+
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'A2' : 'Player1',
+                    'A3' : 'Player2',
+                    'A4' : 'Player3',
+                    'A5' : 'Player4',
+                    'A6' : 'Player5',
+                    'A7' : 'Player6',
+                    'A8' : 'Player7',
+                    'A9' : 'Player8',
+                    'A10' : 'Player9',
+                    'A11' : 'Player10',
+                    'A12' : 'Player11',
+                    'A13' : 'Player12',
+                    'A14' : 'Player13',
+                    'A15' : 'Player14',
+                    'A16' : 'Player15',
+                    'A17' : 'Player16',
+                }
+            };
+            const spreadsheetID = '1LAm59KaCZLcd7BB7YkBOn5Np4F5tpG2ohUrGGtpSHeU'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>

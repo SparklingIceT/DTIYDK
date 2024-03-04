@@ -1,0 +1,127 @@
+@font-face {
+    font-family: condensed;
+    font-style: normal;
+    src: url(ROC_GROTESK_CONDENSED_MEDIUM.otf);
+}
+@font-face {
+    font-family: extrabold;
+    font-style: normal;
+    src: url(ROC_GROTESK_EXTRABOLD_WIDE.otf);
+}
+body {
+    margin: 0px auto;
+    overflow: hidden;
+    font-family: condensed;
+    text-transform: uppercase;
+}
+.Ranking {
+font-size: 30px;
+}
+.Playername1 {
+    color: white;
+    text-align: left;
+    left: 150px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Playername2 {
+    color: white;
+    text-align: left;
+    left: 580px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Playername3 {
+    color: white;
+    text-align: left;
+    left: 1020px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Playername4 {
+    color: white;
+    text-align: left;
+    left: 1450px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Score1 {
+    color: #ffffff;
+    text-align: left;
+    left: 350px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Score2 {
+    color: #ffffff;
+    text-align: left;
+    left: 780px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Score3 {
+    color: #ffffff;
+    text-align: left;
+    left: 1220px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Score4 {
+    color: #ffffff;
+    text-align: left;
+    left: 1650px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Zeile1 {
+    position: absolute;
+    top: 630px;
+}
+.Zeile2 {
+    position: absolute;
+    top: 670px;
+}
+.Zeile3 {
+position: absolute;
+top: 710px;
+}
+.Zeile4 {
+    position: absolute;
+    top: 750px;
+}
+.Zeile5 {
+    position: absolute;
+    top: 790px;
+}
