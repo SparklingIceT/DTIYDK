@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tierlist</title>
+        <link rel="stylesheet" href="Tierlist.css">
+    </head>
+    <body>
+        <div class="Stier">
+            <img src="" id="STier1" class="Row1" style="width: 75px; height: 75px;">
+            <img src="" id="STier2" class="Row2" style="width: 75px; height: 75px;">
+            <img src="" id="STier3" class="Row3" style="width: 75px; height: 75px;">
+            <img src="" id="STier4" class="Row4" style="width: 75px; height: 75px;">
+            <img src="" id="STier5" class="Row5" style="width: 75px; height: 75px;">
+            <img src="" id="STier6" class="Row6" style="width: 75px; height: 75px;">
+            <img src="" id="STier7" class="Row7" style="width: 75px; height: 75px;">
+            <img src="" id="STier8" class="Row8" style="width: 75px; height: 75px;">
+            <img src="" id="STier9" class="Row9" style="width: 75px; height: 75px;">
+            <img src="" id="STier10" class="Row10" style="width: 75px; height: 75px;">
+            <img src="" id="STier11" class="Row11" style="width: 75px; height: 75px;">
+            <img src="" id="STier12" class="Row12" style="width: 75px; height: 75px;">
+            <img src="" id="STier13" class="Row13" style="width: 75px; height: 75px;">
+            <img src="" id="STier14" class="Row14" style="width: 75px; height: 75px;">
+            <img src="" id="STier15" class="Row15" style="width: 75px; height: 75px;">
+            <img src="" id="STier16" class="Row16" style="width: 75px; height: 75px;">
+            <img src="" id="STier17" class="Row17" style="width: 75px; height: 75px;">
+            <img src="" id="STier18" class="Row18" style="width: 75px; height: 75px;">
+            <img src="" id="STier19" class="Row19" style="width: 75px; height: 75px;">
+            <img src="" id="STier20" class="Row20" style="width: 75px; height: 75px;">
+        </div>
+                <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'image' : {
+                    'P3' : 'STier1',
+                    'P4' : 'STier2',
+                    'P5' : 'STier3',
+                    'P6' : 'STier4',
+                    'P7' : 'STier5',
+                    'P8' : 'STier6',
+                    'P9' : 'STier7',
+                    'P10' : 'STier8',
+                    'P11' : 'STier9',
+                    'P12' : 'STier10',
+                    'P13' : 'STier11',
+                    'P14' : 'STier12',
+                    'P15' : 'STier13',
+                    'P16' : 'STier14',
+                    'P17' : 'STier15',
+                    'P18' : 'STier16',
+                    'P19' : 'STier17',
+                    'P20' : 'STier18',
+                    'P21' : 'STier19',
+                    'P22' : 'STier20',
+                }
+            };
+            const spreadsheetID = '1LAm59KaCZLcd7BB7YkBOn5Np4F5tpG2ohUrGGtpSHeU'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
