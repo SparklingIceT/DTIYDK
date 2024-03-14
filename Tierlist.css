@@ -2,7 +2,61 @@
 height: 1080px;
 width: 1920px;
 }
-.Row1{
+.S{
     position: absolute;
     top: 500px;
+}
+.Row1{
+    left: 400px;
+}
+.Row2{
+    left: 480px;
+}
+.Row3{
+    left: 560px;
+}
+.Row4{
+    left: 640px;
+}
+.Row5{
+    left: 720px;
+}
+.Row6{
+    left: 800px;
+}
+.Row7{
+    left: 880px;
+}
+.Row8{
+    left: 960px;
+}
+.Row9{
+    left: 1040px;
+}
+.Row10{
+    left: 1120px;
+}
+.Row11{
+    left: 1200px;
+}
+.Row12{
+    left: 1280px;
+}
+.Row13{
+    left: 1360px;
+}
+.Row14{
+    left: 1440px;
+}
+.Row15{
+    left: 1520px;
+}
+.Row16{
+    left: 1600px;
+}
+.Row17 {
+    left: 1680px;
+}
+.Row18{
+    left: 1760px;
 }
