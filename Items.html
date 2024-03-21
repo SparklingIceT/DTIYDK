@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tierlist</title>
+        <link rel="stylesheet" href="Ingame.css">
+    </head>
+    <body>
+        <div>
+            <img src="Element_alt.png">
+        </div>
+        <div class="Stier">
+            <img src="" id="STier1" class="Row1 S" style="width: 75px; height: 75px;">
+            <img src="" id="STier2" class="Row2 S" style="width: 75px; height: 75px;">
+            <img src="" id="STier3" class="Row3 S" style="width: 75px; height: 75px;">
+            <img src="" id="STier4" class="Row4 S" style="width: 75px; height: 75px;">
+            <img src="" id="STier5" class="Row5 S" style="width: 75px; height: 75px;">
+            <img src="" id="STier6" class="Row6 S" style="width: 75px; height: 75px;">
+        </div>
+                <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'image' : {
+                    'A2' : 'STier1',
+                    'P4' : 'STier2',
+                    'P5' : 'STier3',
+                    'P6' : 'STier4',
+                    'P7' : 'STier5',
+                    'P8' : 'STier6',
+                }
+            };
+            const spreadsheetID = '1MC0PZF-fDkc3UBY0CP0IgOXbfwqQ-JHd2wPaeYeLOmQ'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
