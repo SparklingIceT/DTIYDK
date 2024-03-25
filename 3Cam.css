@@ -11,14 +11,15 @@ color: #ffffff;
 top: 762px;
 text-transform: uppercase;
 text-align: center;
-width: 400px;
+width: 450px;
+text-shadow: black 2px 2px 5px;
 }
 .Zeile1 {
-    left: 180px;
+    left: 168px;
 }
 .Zeile2 {
-    left: 754px;
+    left: 734px;
 }
 .Zeile3 {
-    left: 1320px;
+    left: 1300px;
 }

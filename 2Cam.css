@@ -5,26 +5,32 @@
 }
 .Playername {
 font-family: bold;
-position: fixed;
-font-size: 40px;
+position: absolute;
+font-size: 48px;
 color: #ffffff;
 text-transform: uppercase;
 text-align: center;
-width: 400px;
+text-shadow: black 2px 2px 5px;
 }
 .Zeile1 {
-    left: 125px;
-    top: 452px;
+    left: 287px;
+    top: 780px;
+    width: 645px;
 }
 .Zeile2 {
-    left: 600px;
-    top: 452px;
+    left: 985px;
+    top: 780px;
+    width: 645px;
 }
 .Zeile3 {
-    left: 125px;
-    top: 895px;
+    left: 287px;
+    top: 835px;
+    font-size: 36px;
+    width: 645px;
 }
 .Zeile4 {
-    left: 600px; 
-    top: 895px;
+    left: 985px; 
+    top: 835px;
+    font-size: 36px;
+    width: 645px;
 }

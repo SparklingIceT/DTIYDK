@@ -7,22 +7,22 @@
 font-family: bold;
 position: absolute;
 text-align: center;
-font-size: 64px;
+font-size: 54px;
 color: #1a2e35;
-left: 186px;
+left: 145px;
 text-transform: uppercase;
 width: 800px;
 text-shadow: 2px 2px 5px;
 }
 .Zeile1 {
-    top: 325px;
+    top: 335px;
 }
 .Zeile2 {
-    top: 476px;
+    top: 486px;
 }
 .Zeile3 {
-    top: 624px;
+    top: 634px;
 }
 .Zeile4 {
-    top: 775px;
+    top: 785px;
 }

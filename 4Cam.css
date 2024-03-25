@@ -11,20 +11,21 @@ color: #ffffff;
 text-transform: uppercase;
 text-align: center;
 width: 400px;
+text-shadow: black 2px 2px 5px;
 }
 .Zeile1 {
-    left: 125px;
+    left: 128px;
     top: 452px;
 }
 .Zeile2 {
-    left: 600px;
+    left: 607px;
     top: 452px;
 }
 .Zeile3 {
-    left: 125px;
+    left: 128px;
     top: 895px;
 }
 .Zeile4 {
-    left: 600px; 
+    left: 607px;
     top: 895px;
 }
