@@ -13,23 +13,14 @@ text-align: center;
 text-shadow: black 2px 2px 5px;
 }
 .Zeile1 {
+    background-color: blue;
     left: 287px;
     top: 780px;
     width: 645px;
 }
 .Zeile2 {
-    left: 985px;
-    top: 780px;
-    width: 645px;
-}
-.Zeile3 {
+    background-color: blueviolet;
     left: 287px;
-    top: 835px;
-    font-size: 36px;
-    width: 645px;
-}
-.Zeile4 {
-    left: 985px; 
     top: 835px;
     font-size: 36px;
     width: 645px;
