@@ -1,0 +1,36 @@
+@font-face {
+    font-family: bold;
+    font-style: normal;
+    src: url(CamptonBold.otf);
+}
+.Playername {
+font-family: bold;
+position: absolute;
+font-size: 48px;
+color: #ffffff;
+text-transform: uppercase;
+text-align: center;
+text-shadow: black 2px 2px 5px;
+}
+.Zeile1 {
+    left: 287px;
+    top: 780px;
+    width: 645px;
+}
+.Zeile2 {
+    left: 985px;
+    top: 780px;
+    width: 645px;
+}
+.Zeile3 {
+    left: 287px;
+    top: 835px;
+    font-size: 36px;
+    width: 645px;
+}
+.Zeile4 {
+    left: 985px; 
+    top: 835px;
+    font-size: 36px;
+    width: 645px;
+}
