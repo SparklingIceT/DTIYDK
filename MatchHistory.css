@@ -1,0 +1,43 @@
+@font-face {
+    font-family: bold;
+    font-style: normal;
+    src: url(CamptonBold.otf);
+}
+    
+.Row1{
+    position: absolute;
+    top: 40px;
+    left: 13px;
+}
+.Row2{
+    position: absolute;
+    top: 40px;
+    left: 49px;
+}
+.Row3{
+    position: absolute;
+    top: 40px;
+    left: 85px;
+}
+.Row4{
+    position: absolute;
+    top: 40px;
+    left: 121px;
+}
+.Row5{
+    position: absolute;
+    top: 40px;
+    left: 157px;
+}
+.Row6{
+    position: absolute;
+    top: 40px;
+    left: 193px;
+}
+.Playername {
+    background-color: black;
+    font-size: 28px;
+    font-family: bold;
+    position: absolute;
+    color: white;
+}
