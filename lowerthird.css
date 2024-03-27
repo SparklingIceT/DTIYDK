@@ -21,7 +21,7 @@ text-wrap: nowrap;
 .Zeile1 {
     background-color: blue;
     left: 287px;
-    top: 780px;
+    top: 180px;
     width: 0px;
     animation-name: example;
     animation-duration: 5s;
@@ -31,7 +31,7 @@ text-wrap: nowrap;
 .Zeile2 {
     background-color: blueviolet;
     left: 287px;
-    top: 835px;
+    top: 235px;
     font-size: 36px;
     width: 0px;
     animation-name: example;
