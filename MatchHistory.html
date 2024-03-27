@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MatchHistory</title>
+        <link rel="stylesheet" href="Ingame.css">
+    </head>
+    <body>
+        <div class="Stier">
+            <img src="" id="STier1" class="Row1 S">
+            <img src="" id="STier2" class="Row2 S">
+            <img src="" id="STier3" class="Row3 S">
+            <img src="" id="STier4" class="Row4 S">
+            <img src="" id="STier5" class="Row5 S">
+            <img src="" id="STier6" class="Row6 S">
+        </div>
+                <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'image' : {
+                    'A2' : 'STier1',
+                    'A3' : 'STier2',
+                    'A4' : 'STier3',
+                    'A5' : 'STier4',
+                    'A6' : 'STier5',
+                    'A7' : 'STier6',
+                }
+            };
+            const spreadsheetID = '1MC0PZF-fDkc3UBY0CP0IgOXbfwqQ-JHd2wPaeYeLOmQ'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>

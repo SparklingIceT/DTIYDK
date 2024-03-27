@@ -13,14 +13,14 @@ position: absolute;
 font-size: 48px;
 color: #ffffff;
 text-transform: uppercase;
-text-align: center;
+text-align: left;
 text-shadow: black 2px 2px 5px;
 overflow: hidden;
 text-wrap: nowrap;
-margin: 0%;
+margin: 10%;
 }
 .Zeile1 {
-    background-color: blue;
+    background-color: rgb(98, 98, 205);
     left: 287px;
     top: 180px;
     width: 0px;
@@ -30,7 +30,7 @@ margin: 0%;
     animation-iteration-count: 2;
 }
 .Zeile2 {
-    background-color: blueviolet;
+    background-color: rgb(37, 144, 202);
     left: 287px;
     top: 235px;
     font-size: 36px;
