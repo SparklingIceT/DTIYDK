@@ -41,6 +41,13 @@
     top: 20px;
     color: white;
 }
+.Callername {
+    left: 38px;
+    font-family: bold;
+    position: absolute;
+    top: 20px;
+    color: white; 
+}
 .Placement {
     background-color: black;
     color: white;

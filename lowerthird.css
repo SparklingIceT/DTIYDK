@@ -5,14 +5,14 @@
 }
 @keyframes example {
     0% {width: 0px;}
-    33% {width: 645px;}
-    100% {width: 645px;}
+    33% {width: 545px;}
+    100% {width: 545px;}
 }
 
 @keyframes example2 {
     0% {height: 0px;}
-    33% {height: 50px;}
-    100% {height: 50px;}
+    33% {height: 48px;}
+    100% {height: 48px;}
 }
 
 .Playername {

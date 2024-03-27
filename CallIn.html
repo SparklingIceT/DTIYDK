@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CallIn</title>
+        <link rel="stylesheet" href="Ingame.css">
+    </head>
+    <body>
+        <div>
+            <span id="Caller" class="Callername"></span>
+        </div>
+                <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'A25' : 'Caller',
+                }
+            };
+            const spreadsheetID = '1MC0PZF-fDkc3UBY0CP0IgOXbfwqQ-JHd2wPaeYeLOmQ'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
