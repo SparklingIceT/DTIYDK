@@ -3,6 +3,10 @@
     font-style: normal;
     src: url(CamptonBold.otf);
 }
+@keyframes example {
+    from {left: 0px;}
+    to {left: 287px;}
+}
 .Playername {
 font-family: bold;
 position: absolute;
@@ -17,6 +21,8 @@ text-shadow: black 2px 2px 5px;
     left: 287px;
     top: 780px;
     width: 645px;
+    animation-name: example;
+    animation-duration: 5s;
 }
 .Zeile2 {
     background-color: blueviolet;
