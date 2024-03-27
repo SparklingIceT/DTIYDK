@@ -13,10 +13,11 @@ position: absolute;
 font-size: 48px;
 color: #ffffff;
 text-transform: uppercase;
-text-align: left;
+text-align: center;
 text-shadow: black 2px 2px 5px;
 overflow: hidden;
 text-wrap: nowrap;
+margin: 0%;
 }
 .Zeile1 {
     background-color: blue;
