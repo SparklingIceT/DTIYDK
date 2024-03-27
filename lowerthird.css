@@ -31,5 +31,8 @@ overflow: hidden;
     left: 287px;
     top: 835px;
     font-size: 36px;
-    width: 645px;
+    width: 0px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-direction: alternate;
 }
