@@ -45,6 +45,7 @@ margin: 0%;
     top: 235px;
     font-size: 36px;
     width: 645px;
+    height: 0px;
     animation-name: example2;
     animation-duration: 6s;
     animation-direction: alternate;
