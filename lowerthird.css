@@ -9,7 +9,7 @@
 }
 .Playername {
 font-family: bold;
-position: relative;
+position: absolute;
 font-size: 48px;
 color: #ffffff;
 text-transform: uppercase;
