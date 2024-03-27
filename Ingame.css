@@ -35,6 +35,7 @@
     left: 193px;
 }
 .Playername {
+    background-color: black;
     left: 38px;
     font-family: bold;
     position: absolute;
