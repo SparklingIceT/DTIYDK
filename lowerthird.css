@@ -16,6 +16,7 @@ text-transform: uppercase;
 text-align: center;
 text-shadow: black 2px 2px 5px;
 overflow: hidden;
+text-wrap: nowrap;
 }
 .Zeile1 {
     background-color: blue;
