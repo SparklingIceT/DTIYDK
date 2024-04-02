@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ballot</title>
+        <link rel="stylesheet" href="2Cam.css">
+    </head>
+    <body>
+        <div class="Schedule">
+            <span id="Player1" class="Zeile1 Playername"></span>
+            <span id="Player2" class="Zeile2 Playername"></span>
+            <span id="Player3" class="Zeile3 Playername"></span>
+            <span id="Player4" class="Zeile4 Playername"></span>
+        </div>
+
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'A17' : 'Player1',
+                    'A20' : 'Player2',
+                    'A21' : 'Player3',
+                    'A24' : 'Player4',
+                }
+            };
+            const spreadsheetID = '1MC0PZF-fDkc3UBY0CP0IgOXbfwqQ-JHd2wPaeYeLOmQ'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
