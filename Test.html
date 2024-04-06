@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TestSite</title>
+        <link rel="stylesheet" href="Test.css">
+    </head>
+    <body>
+        <div class="Schedule">
+            <span id="Player1" class="off player"></span>
+            <span id="Player2" class="off player"></span>
+            <span id="Player3" class="off player"></span>
+            <span id="Player4" class="off player"></span>
+        </div>
+        <div class="bttns">
+            <button id="switchon" class="swtcherbttn">on</button>
+            <button id="switchoff" class="swtcherbttn">off</button>
+        </div>
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'A17' : 'Player1',
+                    'A18' : 'Player2',
+                    'A19' : 'Player3',
+                    'A20' : 'Player4',
+                },
+                'counter' : {
+                    'C1' : [
+                        'Player1',
+                        'Player2',
+                        'Player3',
+                        'Player4',
+                    ]
+                }
+            };
+            const spreadsheetID = '1MC0PZF-fDkc3UBY0CP0IgOXbfwqQ-JHd2wPaeYeLOmQ'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+        <script>
+            // Get the button, and when the user clicks on it, execute myFunction
+            document.getElementById("switchon").onclick = function() {myFunction()};
+            
+            /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+            function myFunction() {
+                var elements = document.getElementsByClassName('player');
+                for (var i = 0; i<elements.length; i++) {
+                 elements[i].classList.toggle('on');
+                }
+            }
+            </script>
+    </body>
+</html>

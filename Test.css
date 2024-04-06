@@ -1,0 +1,19 @@
+.off {
+    display: none;
+}
+.on {
+    display: contents;
+}
+.swtcherbttn {
+    background-color: rgb(51, 173, 88);
+    text-transform: uppercase;
+    border-style: hidden;
+    color: white;
+}
+.swtcherbttn:hover, .swtcherbttn:focus {
+    background-color: #3e8e41;
+}
+.bttns {
+    position: absolute;
+    top: 500px;
+}
