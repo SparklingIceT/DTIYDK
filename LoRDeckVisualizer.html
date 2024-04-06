@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Decks</title>
+        <link rel="stylesheet" href="DeckVisualizer.css">
+    </head>
+    <body>
+        <div>
+            <img src="" id="C1" class="deck1 champ1 cue">
+            <img src="" id="C2" class="deck1 champ2 cue">
+            <img src="" id="C3" class="deck1 champ3 cue">
+            <img src="" id="C4" class="deck1 champ4 cue">
+            <img src="" id="C5" class="deck1 champ5 cue">
+            <img src="" id="C6" class="deck1 champ6 cue">
+        </div>
+        <div class="bttns1">
+            <button id="switchon" class="swtcherbttn">on</button>
+        </div>
+        <div class="bttns2">
+            <button id="switchoff" class="swtcherbttn">off</button>
+        </div>
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'image' : {
+                    'A1' : 'C1',
+                    'A2' : 'C2',
+                    'A3' : 'C3',
+                    'A4' : 'C4',
+                    'A5' : 'C5',
+                    'A6' : 'C6',
+                },
+                'counter' : {
+                    'B1' : [
+                        'C1',
+                        'C2',
+                        'C3',
+                        'C4',
+                    ]
+                }
+            };
+            const spreadsheetID = '1GI4YBZs7NI6AxYCfA_xFJ7cCECHbjU4Jd_Y_vVWid-E'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+        <script>
+            // Get the button, and when the user clicks on it, execute myFunction
+            document.getElementById("switchon").onclick = function() {myFunction()};
+            
+            /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+            function myFunction() {
+                var elements = document.getElementsByClassName('deck1');
+                for (var i = 0; i<elements.length; i++) {
+                 elements[i].classList.add('on');
+                 elements[i].classList.remove('off');
+                }
+            }
+            </script>
+        <script>
+            // Get the button, and when the user clicks on it, execute myFunction
+            document.getElementById("switchoff").onclick = function() {myFunctionoff()};
+            
+            /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+            function myFunctionoff() {
+                var elements = document.getElementsByClassName('deck1');
+                for (var i = 0; i<elements.length; i++) {
+                 elements[i].classList.add('off');
+                 elements[i].classList.remove('on');
+                }
+            }
+            </script>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+@keyframes example {
+    0% {margin-top: 0px; opacity: 0;}
+    20% {opacity: 1;}
+    33% {margin-top: 20px;opacity: 1;}
+    100% {margin-top: 20px;opacity: 1;}
+}
+@keyframes example-reverse{
+    0% {margin-top: 20px;opacity: 1;}
+    33% {margin-top: 0px;opacity: 0;}
+    100% {margin-top: 0px;opacity: 0;}
+
+}
+.off {
+    animation-name: example-reverse;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+}
+.cue {
+    opacity: 0;
+}
+.on {
+    animation-name: example;
+    animation-duration: 2s;
+    animation-timing-function: ease-out; 
+    animation-fill-mode: both;
+}
+.swtcherbttn {
+    background-color: rgb(51, 173, 88);
+    text-transform: uppercase;
+    border-style: hidden;
+    color: white;
+}
+.swtcherbttn:hover, .swtcherbttn:focus {
+    background-color: #3e8e41;
+}
+.champ1 {
+    margin-top: 20px;
+    position: absolute;
+    top: 250px;
+    left: 600px;
+}
+.champ2 {
+    margin-top: 20px;
+    animation-delay: 50ms;
+    position: absolute;
+    top: 290px;
+    left: 600px;
+}
+.champ3 {
+    margin-top: 20px;
+    animation-delay: 100ms;
+    position: absolute;
+    top: 330px;
+    left: 600px;
+}
+.champ4 {
+    margin-top: 20px;
+    animation-delay: 150ms;
+    position: absolute;
+    top: 370px;
+    left: 600px;
+}
+.champ5 {
+    margin-top: 20px;
+    animation-delay: 200ms;
+    position: absolute;
+    top: 410px;
+    left: 600px;
+}
+.champ6 {
+    margin-top: 20px;
+    animation-delay: 250ms;
+    position: absolute;
+    top: 450px;
+    left: 600px;
+}

@@ -1,8 +1,28 @@
+@keyframes example {
+    0% {margin-top: 0px; opacity: 0;}
+    33% {margin-top: 20px;opacity: 1;}
+    100% {margin-top: 20px;opacity: 1;}
+}
+@keyframes example-reverse{
+    0% {margin-top: 20px;opacity: 1;}
+    33% {margin-top: 0px;opacity: 0;}
+    100% {margin-top: 0px;opacity: 0;}
+
+}
 .off {
-    display: none;
+    animation-name: example-reverse;
+    animation-duration: 4s;
+    animation-timing-function: ease-out; 
+}
+.cue {
+    opacity: 0;
+    width: 0px;
 }
 .on {
-    display: contents;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-out; 
+    animation-fill-mode: forwards;
 }
 .swtcherbttn {
     background-color: rgb(51, 173, 88);
@@ -13,13 +33,39 @@
 .swtcherbttn:hover, .swtcherbttn:focus {
     background-color: #3e8e41;
 }
-.bttns {
-    position: absolute;
-    top: 500px;
-}
 .zeile1 {
     position: absolute;
     background-color: rgb(122, 64, 216);
     top: 100px;
     left: 50px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.zeile2 {
+    position: absolute;
+    background-color: rgb(160, 64, 216);
+    top: 120px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.zeile3 {
+    position: absolute;
+    background-color: rgb(92, 64, 216);
+    top: 140px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    text-align: center;
+}
+.zeile4 {
+    position: absolute;
+    background-color: rgb(64, 99, 216);
+    top: 160px;
+    left: 50px;
+    color: white;
+    width: 200px;
+    text-align: center;
 }
