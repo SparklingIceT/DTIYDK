@@ -17,3 +17,9 @@
     position: absolute;
     top: 500px;
 }
+.zeile1 {
+    position: absolute;
+    background-color: rgb(122, 64, 216);
+    top: 100px;
+    left: 50px;
+}
