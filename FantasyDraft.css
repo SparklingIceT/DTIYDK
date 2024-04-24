@@ -64,7 +64,7 @@ font-size: 30px;
 .Score1 {
     color: #ffffff;
     text-align: left;
-    left: 350px;
+    left: 400px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -75,7 +75,7 @@ font-size: 30px;
 .Score2 {
     color: #ffffff;
     text-align: left;
-    left: 780px;
+    left: 830px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -86,7 +86,7 @@ font-size: 30px;
 .Score3 {
     color: #ffffff;
     text-align: left;
-    left: 1220px;
+    left: 1270px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -97,7 +97,7 @@ font-size: 30px;
 .Score4 {
     color: #ffffff;
     text-align: left;
-    left: 1650px;
+    left: 1700px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -114,8 +114,8 @@ font-size: 30px;
     top: 670px;
 }
 .Zeile3 {
-position: absolute;
-top: 710px;
+    position: absolute;
+    top: 710px;
 }
 .Zeile4 {
     position: absolute;
@@ -124,4 +124,21 @@ top: 710px;
 .Zeile5 {
     position: absolute;
     top: 790px;
+}
+.flagge {
+    height: 20px;
+    width: 35px;
+    padding-top: 9.5px;
+}
+.flags1 {
+    left: 350px;
+}
+.flags2 {
+    left: 780px;
+}
+.flags3 {
+    left: 1220px;
+}
+.flags4 {
+    left: 1650px;
 }
