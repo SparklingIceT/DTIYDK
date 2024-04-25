@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bid</title>
+        <link rel="stylesheet" href="Bid.css">
+    </head>
+    <body>
+        <div class="Schedule">
+            <span id="Bid1" class="Zeile1 Bid"></span>
+            <span id="Bid2" class="Zeile2 Bid"></span>
+            <span id="Bid3" class="Zeile3 Bid"></span>
+            <span id="Bid4" class="Zeile4 Bid"></span>
+        </div>
+
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'H2' : 'Bid1',
+                    'H3' : 'Bid2',
+                    'H4' : 'Bid3',
+                    'H5' : 'Bid4',
+                },
+                'counter' : {
+                    'H6' : [
+                        'Bid1',
+                        'Bid2',
+                        'Bid3',
+                        'Bid4',
+                    ]
+                }
+                
+            };
+            const spreadsheetID = '1LAm59KaCZLcd7BB7YkBOn5Np4F5tpG2ohUrGGtpSHeU'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>

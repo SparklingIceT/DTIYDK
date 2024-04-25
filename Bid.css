@@ -1,0 +1,28 @@
+@font-face {
+    font-family: bold;
+    font-style: normal;
+    src: url(CamptonBold.otf);
+}
+.Bid {
+font-family: bold;
+position: absolute;
+font-size: 40px;
+color: #ffffff;
+text-transform: uppercase;
+text-align: center;
+width: 200px;
+text-shadow: black 2px 2px 5px;
+top: 80px;
+}
+.Zeile1 {
+    left: 330px;
+}
+.Zeile2 {
+    left: 780px;
+}
+.Zeile3 {
+    left: 1230px;
+}
+.Zeile4 {
+    left: 1680px;
+}
