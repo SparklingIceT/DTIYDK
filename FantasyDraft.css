@@ -8,19 +8,29 @@
     font-style: normal;
     src: url(ROC_GROTESK_EXTRABOLD_WIDE.otf);
 }
+@font-face {
+    font-family: bold;
+    font-style: normal;
+    src: url(ROC_GROTESK_EXTRABOLD.otf);
+}
 body {
     margin: 0px auto;
     overflow: hidden;
-    font-family: condensed;
+    font-family: bold;
     text-transform: uppercase;
 }
 .Ranking {
 font-size: 30px;
 }
+.flagge {
+    height: 20px;
+    width: 35px;
+    padding-top: 9.2px;
+}
 .Playername1 {
-    color: white;
+    color: #202020;
     text-align: left;
-    left: 150px;
+    left: 80px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -29,9 +39,9 @@ font-size: 30px;
     position: absolute;
 }
 .Playername2 {
-    color: white;
+    color: #202020;
     text-align: left;
-    left: 580px;
+    left: 525px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -40,9 +50,9 @@ font-size: 30px;
     position: absolute;
 }
 .Playername3 {
-    color: white;
+    color: #202020;
     text-align: left;
-    left: 1020px;
+    left: 975px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -51,9 +61,9 @@ font-size: 30px;
     position: absolute;
 }
 .Playername4 {
-    color: white;
+    color: #202020;
     text-align: left;
-    left: 1450px;
+    left: 1430px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -62,9 +72,9 @@ font-size: 30px;
     position: absolute;
 }
 .Score1 {
-    color: #ffffff;
+    color: #202020;
     text-align: left;
-    left: 400px;
+    left: 420px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -73,9 +83,9 @@ font-size: 30px;
     position: absolute;
 }
 .Score2 {
-    color: #ffffff;
+    color: #202020;
     text-align: left;
-    left: 830px;
+    left: 865px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -84,9 +94,9 @@ font-size: 30px;
     position: absolute;
 }
 .Score3 {
-    color: #ffffff;
+    color: #202020;
     text-align: left;
-    left: 1270px;
+    left: 1315px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -95,9 +105,9 @@ font-size: 30px;
     position: absolute;
 }
 .Score4 {
-    color: #ffffff;
+    color: #202020;
     text-align: left;
-    left: 1700px;
+    left: 1770px;
     text-transform: uppercase;
     width: 600px;
     overflow: hidden;
@@ -105,40 +115,87 @@ font-size: 30px;
     white-space:  nowrap;
     position: absolute;
 }
+.flags1 {
+    left: 370px;
+}
+.flags2 {
+    left: 815px;
+}
+.flags3 {
+    left: 1265px;
+}
+.flags4 {
+    left: 1720px;
+}
+.Budget1 {
+    font-size: 40px;
+    color: #22316d;
+    text-align: left;
+    left: 247px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Budget2 {
+    font-size: 40px;
+    color: #22316d;
+    text-align: left;
+    left: 692px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Budget3 {
+    font-size: 40px;
+    color: #22316d;
+    text-align: left;
+    left: 1133px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Budget4 {
+    font-size: 40px;
+    color: #22316d;
+    text-align: left;
+    left: 1593px;
+    text-transform: uppercase;
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:  nowrap;
+    position: absolute;
+}
+.Zeile0 {
+    position: absolute;
+    top: 592px;
+}
 .Zeile1 {
-    position: absolute;
-    top: 630px;
-}
-.Zeile2 {
-    position: absolute;
-    top: 670px;
-}
-.Zeile3 {
     position: absolute;
     top: 710px;
 }
+.Zeile2 {
+    position: absolute;
+    top: 770px;
+}
+.Zeile3 {
+    position: absolute;
+    top: 830px;
+}
 .Zeile4 {
     position: absolute;
-    top: 750px;
+    top: 890px;
 }
 .Zeile5 {
     position: absolute;
-    top: 790px;
-}
-.flagge {
-    height: 20px;
-    width: 35px;
-    padding-top: 9.5px;
-}
-.flags1 {
-    left: 350px;
-}
-.flags2 {
-    left: 780px;
-}
-.flags3 {
-    left: 1220px;
-}
-.flags4 {
-    left: 1650px;
+    top: 950px;
 }
