@@ -4,7 +4,7 @@
     src: url(CamptonBold.otf);
 }
 @keyframes on {
-    0% {width: 0px; opacity: 0;}
+    0% {width: 0px; opacity: 1;}
     33% {width: 545px;opacity: 1;}
     100% {width: 545px;}
 }
@@ -13,12 +13,16 @@
     33% {width: 0px;opacity: 0;}
     100% {width: 0px;}
 }
-@keyframes example2 {
-    0% {height: 0px; opacity: 0;}
-    33% {height: 38px; opacity: 1;}
-    100% {height: 38px;}
+.Binde {
+    position: absolute;
 }
-
+.main {
+    width: 0px;
+    animation-name: on;
+    animation-duration: 20s;
+    animation-timing-function: ease-out; 
+    animation-fill-mode: forwards;
+}
 .text {
 font-family: bold;
 position: absolute;
@@ -31,24 +35,9 @@ text-overflow: clip;
 text-wrap: nowrap;
 }
 .Zeile1 {
-    left: 287px;
-    top: 180px;
-    width: 0px;
-}
-.Background1 {
-    left: 287px;
-    top: 180px;
-    position: absolute;
-    background-color: rgb(98, 98, 205);
-    color: rgb(98, 98, 205);
-}
-.Zeile2 {
-    background-color: rgb(37, 144, 202);
-    left: 287px;
-    top: 240px;
-    font-size: 28px;
+    left: 317px;
+    top: 907px;
     width: 545px;
-    height: 0px;
 }
 .on {
     animation-name: on;

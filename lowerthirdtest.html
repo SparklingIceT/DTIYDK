@@ -5,17 +5,14 @@
         <link rel="stylesheet" href="lowerthird.css">
     </head>
     <body>
-        <div class="Background1">
-            <span id="Name1" class="Zeile1 text"></span>
+        <div>
+            <img src="ATV_BauchBinde_Main_Short.png" class="Binde">
+            <img src="ATV_BauchBinde_Top_Short.png" class="Binde">
+            <img src="ATV_BauchBinde_Side_Short.png" class="Binde">
+            <img src="ATV_BauchBinde_Accent_Short.png" class="Binde">
         </div>
-        <div class="Twitter">
-            <span id="Twitter2" class="Zeile2 text"></span>
-        </div>
-        <div class="bttns1">
-            <button id="switchon" class="swtcherbttn">on</button>
-        </div>
-        <div class="bttns2">
-            <button id="switchoff" class="swtcherbttn">off</button>
+        <div>
+            <span id="Name1" class="Zeile1 text">Anton Feuerpfeil</span>
         </div>
         <!-- JAVASCRIPT STUFF-->
         <!-- Import Updater -->
@@ -24,7 +21,6 @@
             const settings = {
                 'string' : {
                     'A17' : 'Name1',
-                    'A21' : 'Twitter2',
                 }
             };
             const spreadsheetID = '1MC0PZF-fDkc3UBY0CP0IgOXbfwqQ-JHd2wPaeYeLOmQ'
@@ -34,31 +30,5 @@
 
             const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
         </script>
-                <script> 
-                    // Gets the Button that executes the function
-                    document.getElementById("switchon").onclick = function() {animationOn()};
-                    
-                    /* Function toggles between adding and removing the show class */
-                    function animationOn() {
-                        var elements = document.getElementsByClassName('Zeile1');
-                        for (var i = 0; i<elements.length; i++) {
-                         elements[i].classList.add('on');
-                         elements[i].classList.remove('off');
-                        }
-                    }
-                    </script>
-                <script>
-                    // Gets the Button that executes the function
-                    document.getElementById("switchoff").onclick = function() {animationOff()};
-                    
-                    /* Function toggles between adding and removing the show class */
-                    function animationOff() {
-                        var elements = document.getElementsByClassName('Zeile1');
-                        for (var i = 0; i<elements.length; i++) {
-                         elements[i].classList.add('off');
-                         elements[i].classList.remove('on');
-                        }
-                    }
-                    </script>
     </body>
 </html>
