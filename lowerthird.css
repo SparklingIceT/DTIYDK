@@ -3,63 +3,50 @@
     font-style: normal;
     src: url(CamptonBold.otf);
 }
-@keyframes example {
-    0% {width: 0px; opacity: 0;}
+@keyframes on {
+    0% {width: 0px; opacity: 1;}
     33% {width: 545px;opacity: 1;}
     100% {width: 545px;}
 }
-
-@keyframes example2 {
-    0% {height: 0px; opacity: 0;}
-    33% {height: 38px; opacity: 1;}
-    100% {height: 38px;}
+@keyframes off {
+    0% {width: 545px; opacity: 1;}
+    33% {width: 0px;opacity: 0;}
+    100% {width: 0px;}
 }
-
-.Playername {
+.Binde {
+    position: absolute;
+}
+.main {
+    width: 0px;
+    animation-name: on;
+    animation-duration: 20s;
+    animation-timing-function: ease-out; 
+    animation-fill-mode: forwards;
+}
+.text {
 font-family: bold;
 position: absolute;
 font-size: 48px;
-color: #ffffff;
+color: #000000;
 text-transform: uppercase;
 text-align: left;
 overflow: hidden;
+text-overflow: clip;
 text-wrap: nowrap;
-margin: 0%;
-}
-.Schedule {
-    background-color: rgb(98, 98, 205);
-    left: 280px;
-    top: 180px;
-    width: 0px;
-    animation-name: example;
-    animation-duration: 6s;
-    animation-direction: alternate;
-    animation-iteration-count: 2;
-    animation-delay: 2s;
-    animation-timing-function: ease-in-out; 
 }
 .Zeile1 {
-    left: 287px;
-    top: 180px;
-    width: 0px;
-    animation-name: example;
-    animation-duration: 6s;
-    animation-direction: alternate;
-    animation-iteration-count: 2;
-    animation-delay: 2s;
-    animation-timing-function: ease-in-out;
-}
-.Zeile2 {
-    background-color: rgb(37, 144, 202);
-    left: 287px;
-    top: 240px;
-    font-size: 28px;
+    left: 317px;
+    top: 907px;
     width: 545px;
-    height: 0px;
-    animation-name: example2;
+}
+.on {
+    animation-name: on;
     animation-duration: 4s;
-    animation-direction: alternate;
-    animation-iteration-count: 2;
-    animation-delay: 4s;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: ease-out; 
+    animation-fill-mode: forwards;
+}
+.off {
+    animation-name: off;
+    animation-duration: 4s;
+    animation-timing-function: ease-out; 
 }
