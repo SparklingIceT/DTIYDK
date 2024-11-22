@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MatchHistory</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        </style>
+        <link rel="stylesheet" href="Quizz.css">
+    </head>
+    <body>
+        <img src="Quizz.png" class="Image">
+        <div>
+            <span id="Question" class="Text Question"></span>
+        </div>
+        <div>
+            <span id="Answer1" class="Text Row1"></span>
+            <span id="Answer2" class="Text Row2"></span>
+            <span id="Answer3" class="Text Row3"></span>
+            <span id="Answer4" class="Text Row4"></span>
+        </div>
+                <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'A1' : 'Answer1',
+                    'A2' : 'Answer2',
+                    'A3' : 'Answer3',
+                    'A4' : 'Answer4',
+                    'A5' : 'Question',
+                }
+            };
+            const spreadsheetID = '1MTVzaiZK8m2yL3H5a3tiIAJE4VXMYDqIUj5w2FMJRfo'
+            const worksheetName = 'OUTPUT';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>

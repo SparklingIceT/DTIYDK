@@ -1,0 +1,47 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+ .Question {
+    Top: 778px;
+    left: 745px;
+    text-align: center;
+    font-size: 36px;
+ }   
+.Row1{
+    position: absolute;
+    top: 873px;
+    left: 580px;
+    text-align: left;
+    font-size: 28px
+}
+.Row2{
+    position: absolute;
+    top: 873px;
+    left: 1005px;
+    text-align: left;
+    font-size: 28px
+}
+.Row3{
+    position: absolute;
+    top: 963px;
+    left: 580px;
+    text-align: left;
+    font-size: 28px
+}
+.Row4{
+    position: absolute;
+    top: 963px;
+    left: 1005px;
+    text-align: left;
+    font-size: 28px
+}
+.Text {
+    font-family: "Bebas Neue";
+    position: absolute;
+    color: rgb(255, 255, 255);
+}
+.Image {
+    position: absolute;
+}

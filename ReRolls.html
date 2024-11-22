@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TestSite</title>
+        <link rel="stylesheet" href="ReRolls.css">
+    </head>
+    <body>
+        <img src="Total Rolls.png" class="test">
+        <div>
+            <span id="Player1" class="player"></span>
+        </div>
+        <!-- JAVASCRIPT STUFF-->
+        <!-- Import Updater -->
+        <script src="Updater.js"></script>
+        <script>
+            const settings = {
+                'string' : {
+                    'M37' : 'Player1',
+                }
+            };
+            const spreadsheetID = '10nXA7nvQvXXTM5W-Nnk1eLzBilJcjRNibsHH_0W4qAg'
+            const worksheetName = 'Decks';
+            const apiKey = "AIzaSyAVtLMa8159asyCNQk1ILe0wqx4cGXTmWU";
+            const updateInterval = 3000;
+
+            const u = new GraphicsUpdater(settings, spreadsheetID, worksheetName, apiKey, updateInterval)
+        </script>
+    </body>
+</html>
